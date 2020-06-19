@@ -1,0 +1,35 @@
+{
+  "name": "html-inline-loader",
+  "version": "0.0.0",
+  "description": "Html template resource inline (?__inline).",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"nothing\"",
+    "dev": "node run-loaders.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angusyang9/html-inline-loader.git"
+  },
+  "keywords": [
+    "loader",
+    "html inline",
+    "html loader"
+  ],
+  "author": "Angus Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angusyang9/html-inline-loader/issues"
+  },
+  "homepage": "https://github.com/angusyang9/html-inline-loader#readme",
+  "devDependencies": {
+    "amfe-flexible": "^2.2.1",
+    "loader-runner": "^3.1.0"
+  },
+  "dependencies": {
+    "loader-utils": "^2.0.0"
+  }
+}
