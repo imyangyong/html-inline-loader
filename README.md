@@ -14,7 +14,7 @@ To begin, you'll need to install `html-inline-loader`:
 npm install html-inline-loader -D
 ```
 
-## onfig
+## Config
 
 Add the loader to your `webpack` config. For example:
 
