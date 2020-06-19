@@ -1,6 +1,6 @@
 {
   "name": "html-inline-loader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Html template resource inline (?__inline).",
   "main": "lib/index.js",
   "files": [
