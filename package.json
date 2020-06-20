@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "test": "nyc --reporter=lcov --reporter=text-summary mocha test/unit/specs",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "dev": "node run-loaders.js"
   },
   "repository": {
