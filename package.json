@@ -7,7 +7,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "echo \"nothing\"",
+    "test": "nyc --reporter=lcov mocha test/unit/specs",
     "dev": "node run-loaders.js"
   },
   "repository": {
@@ -27,7 +27,10 @@
   "homepage": "https://github.com/angusyang9/html-inline-loader#readme",
   "devDependencies": {
     "amfe-flexible": "^2.2.1",
-    "loader-runner": "^3.1.0"
+    "chai": "^4.2.0",
+    "loader-runner": "^3.1.0",
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0"
   },
   "dependencies": {
     "loader-utils": "^2.0.0"
