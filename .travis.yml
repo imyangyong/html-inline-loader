@@ -15,7 +15,7 @@ deploy:
   api_key: $NPM_TOKEN
   on:
     tags: true
-    repo: html-inline-loader
+    repo: AngusYang9/html-inline-loader
   skip_cleanup: true
 
 after_deploy:
