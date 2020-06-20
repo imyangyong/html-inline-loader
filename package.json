@@ -7,7 +7,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "nyc --reporter=lcov mocha test/unit/specs",
+    "test": "nyc --reporter=lcov --reporter=text-summary mocha test/unit/specs",
     "dev": "node run-loaders.js"
   },
   "repository": {
