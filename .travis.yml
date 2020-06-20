@@ -1,6 +1,6 @@
 language: node_js
 
-# if: tag IS present
+if: tag IS present
 
 node_js:
   - node
@@ -8,15 +8,15 @@ node_js:
 install:
   - npm install
 
-#deploy:
-#  provider: npm
-#  edge: true
-#  email: $NPM_EMAIL
-#  api_key: $NPM_TOKEN
-#  on:
-#    tags: true
-#    repo: AngusYang9/html-inline-loader
-#  skip_cleanup: true
+deploy:
+  provider: npm
+  edge: true
+  email: $NPM_EMAIL
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
+    repo: AngusYang9/html-inline-loader
+  skip_cleanup: true
 
 after_deploy:
   - echo npm published!😊

@@ -1,7 +1,7 @@
 <h1 align="center" style="margin: 30px 0 35px;">html-inline-loader</h1>
 <p align="center">
   <a href="https://www.npmjs.com/package/html-inline-loader"><img alt="npm" src="https://img.shields.io/npm/v/html-inline-loader"></a>
-  <a href='https://coveralls.io/github/angusyang9/html-inline-loader'><img src='https://coveralls.io/repos/github/angusyang9/html-inline-loader/badge.svg' alt='Coverage Status' /></a>
+  <a href='https://coveralls.io/github/angusyang9/html-inline-loader?bransh=master'><img src='https://coveralls.io/repos/github/AngusYang9/html-inline-loader/badge.svg?branch=master' alt='Coverage Status' /></a>
   <a href="https://www.npmjs.com/package/html-inline-loader"><img alt="npm" src="https://img.shields.io/npm/dm/html-inline-loader?color=orange"></a>
 </p>
 
